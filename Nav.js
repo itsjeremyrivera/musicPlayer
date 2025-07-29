@@ -9,7 +9,7 @@ const Nav = ({ setLibraryStatus, libraryStatus }) => {
 
   return (
     <nav>
-      <h1>Viviana's Music Player </h1>
+      <h1>Jeremy's Music Player </h1>
       <button
         className={libraryStatus ? "library-active" : ""}
         onClick={openLibraryHandler}
